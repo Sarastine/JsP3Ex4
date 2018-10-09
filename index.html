@@ -1,0 +1,26 @@
+<!-- Dans le fichier HTML fourni, mettre les bordures des inputs en rouge si les mots de passe sont différents. Sinon les mettre en vert.-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<!--<link rel="stylesheet" type="text/css" href="Assets/bootstrap/css/bootstrap.css">-->
+		<link rel="stylesheet" type="text/css" href="Assets/css/Ex4Js.css">
+		<title>Js Part 3 Exercice 4</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>Javascript</h1>
+			<h2>Partie 3 - Exercice 4</h2>
+			<form>
+				<div class="row">
+					<label for="password">Votre mot de passe : </label><input type="text" name="password" id="password" class="blueBorder">
+				</div>
+				<div class="row">
+					<label for="confirmPassword">Confirmez : </label><input type="text" name="confirmPassword" id="confirmPassword" class="blueBorder">
+				</div>
+				<button type="button" name="button" class="button" onclick="verify()">Vérification</button>
+			</form>
+		</div>
+		<script type="text/javascript" src="Assets/js/Ex4Js.js"></script>
+	</body>
+</html>
